@@ -1,4 +1,4 @@
-class Warrior():
+class Warrior:
     def __init__(self, name, power, endurance, hair_color):
         self.name = name
         self.endurance = endurance
@@ -25,3 +25,14 @@ class Warrior():
         print(f"Endurance: {self.endurance}")
         print(f"Power: {self.power}")
         print(f"Hair color: {self.hair_color}")
+
+war1 = Warrior("Peter", 76, 54, "brown")
+war2 = Warrior("John", 45, 23, "blond")
+
+war2.info()
+war1.sleep()
+war2.eat()
+war1.hit()
+war1.walk()
+war1.info()
+war2.info()
