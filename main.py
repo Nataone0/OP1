@@ -22,17 +22,18 @@ class Warrior:
 
     def info(self):
         print(f"Name: {self.name}")
-        print(f"Endurance: {self.endurance}")
-        print(f"Power: {self.power}")
-        print(f"Hair color: {self.hair_color}")
+        print(f"{self.name}'s Endurance: {self.endurance}")
+        print(f"{self.name}'s Power: {self.power}")
+        print(f"{self.name}'s Hair color: {self.hair_color}")
+
 
 war1 = Warrior("Peter", 76, 54, "brown")
 war2 = Warrior("John", 45, 23, "blond")
 
-war2.info()
+
 war1.sleep()
 war2.eat()
-war1.hit()
+war2.hit()
 war1.walk()
 war1.info()
 war2.info()
